@@ -1,4 +1,4 @@
-let shouldPopulate = true;
+let shouldPopulate = false;
 require('./modules/database')(shouldPopulate);
 
 const express = require('./express');

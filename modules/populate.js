@@ -30,7 +30,7 @@ const _itemsValues = {
     locations: ['Boston', 'New York', 'Toronto']
 };
 const _randomIdx = (array, property) => {
-    return array[property][Math.floor(Math.random() * (_itemsValues[property].length - 1))];
+    return array[property][Math.floor(Math.random() * (_itemsValues[property].length))];
 };
 
 module.exports.items = async (quantity = 150) => {
